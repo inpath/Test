@@ -21,7 +21,7 @@ public class LargestNumber {
 	public static void main(String[] args) {
 		
 		LargestNumber ln = new LargestNumber();
-		int [] arr = {13,11,12};
+		int [] arr = {213,111,102};
 		System.out.println("The largest number in array is "+ ln.findMax(arr));
 	}
 
