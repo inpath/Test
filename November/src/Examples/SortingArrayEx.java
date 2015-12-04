@@ -1,14 +1,14 @@
-package Test;
+package Examples;
 
 
-public class SortingArray {
+
+public class SortingArrayEx {
 
 	int min,j;
 	
 	void largest(int[] arr2)
 	{
 		int min = arr2[0];
-		
 		
 		for (j=0;j< arr2.length-1; j++)
 		{
@@ -39,7 +39,7 @@ public class SortingArray {
 	public static void main(String[] args)
 	{
 		int[] arr1 = {22,11,5,4,3};
-		SortingArray sa = new SortingArray();
+		SortingArrayEx sa = new SortingArrayEx();
 		System.out.println("The ascending order is ");
 		sa.largest(arr1);
 		

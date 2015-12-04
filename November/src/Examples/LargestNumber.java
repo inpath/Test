@@ -1,4 +1,4 @@
-package Test;
+package Examples;
 
 public class LargestNumber {
 	
@@ -6,12 +6,13 @@ public class LargestNumber {
 	int n=arr[0];
 	
 	
-	for (int j=0;j<arr.length-1;j++)
+	for (int j=0;j<arr.length;j++)
 	{
-	if (n<arr[1]){
-		n=arr[1];
+		if (n < arr[j])
+		{
+		n = arr[j];
 						
-	}
+		}
 			
 	}
 		
@@ -21,7 +22,7 @@ public class LargestNumber {
 	public static void main(String[] args) {
 		
 		LargestNumber ln = new LargestNumber();
-		int [] arr = {213,111,102};
+		int [] arr = {11,115,35,67,70};
 		System.out.println("The largest number in array is "+ ln.findMax(arr));
 	}
 
