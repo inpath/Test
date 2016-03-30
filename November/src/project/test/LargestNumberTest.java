@@ -4,7 +4,9 @@ import static org.junit.Assert.*;
 
 import org.junit.Test;
 
-import Test.LargestNumber;
+import Examples.LargestNumber;
+
+
 
 public class LargestNumberTest {
 	int max1;

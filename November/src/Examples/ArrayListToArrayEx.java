@@ -14,6 +14,7 @@ public class ArrayListToArrayEx {
 		alist.add("a4b4c4");
 		alist.add("a5b5c5");
 		
+				
 		int j;
 		j=alist.size();
 		String [] arr= new String [j];

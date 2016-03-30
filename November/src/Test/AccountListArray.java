@@ -60,7 +60,7 @@ public class AccountListArray {
 		// Print using For each loop
 		for(AccountListArray i :a)
 		{
-			System.out.println("The AccountNumber and name usinf For Each Loop: ");
+			System.out.println("The AccountNumber and name using For Each Loop: ");
 			System.out.println(i.id +" "+ i.name);
 		}
 		

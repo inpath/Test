@@ -20,6 +20,7 @@ public class ReverseEachWordSentence {
 				
 				sc.close();
 				}
+	
 			}
 	
 

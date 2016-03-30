@@ -14,7 +14,7 @@ import java.util.*;
 		for (int i=str.length-1;i>=0;i--){
 			buffer.append(str[i]);
 			buffer.append(" ");
-			
+			System.out.println(str[i]);
 		}		
 			System.out.println(s);
 			System.out.println(buffer.toString());	
